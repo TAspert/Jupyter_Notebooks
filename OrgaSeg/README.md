@@ -1,18 +1,18 @@
-This program is based on Cellpose.
-To avoid potential conflicts, it is better to create a new environnement to run it:
+<p>This program is based on Cellpose (more info: This notebook requires at https://github.com/MouseLand/cellpose)
+To avoid potential conflicts, it is better to create a new environnement to run it.</p>
 
 For example, in a conda prompt:
 
-conda create --name cellpose python=3.8
-conda activate cellpose
+<code>conda create --name cellpose python=3.8</code>
+<code>conda activate cellpose</code>
 
 
 It requires the following packages:
 
-python -m pip install cellpose[gui]
-python -m pip install matplotlib
-conda install -c conda-forge jupyterlab
-conda install scikit-image
-pip install seaborn
-pip install ipywidgets
-pip install openpyxl
+<code>python -m pip install cellpose[gui]</code>
+<code>python -m pip install matplotlib</code>
+<code>conda install -c conda-forge jupyterlab</code>
+<code>conda install scikit-image</code>
+<code>pip install seaborn</code>
+<code>pip install ipywidgets</code>
+<code>pip install openpyxl</code>
