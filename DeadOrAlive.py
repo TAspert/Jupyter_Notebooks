@@ -22,7 +22,7 @@ from PIL import Image #openCV sucks at importing tiff, we use pillow
 from cellpose import models, utils, io as iocp
 
 # %%
-p='C:/Users/Silence/Desktop/ALD/Basile/wt_g6pd_calcein-pi_221222-20230103T185802Z-001/wt_g6pd_calcein-pi_221222'
+p='C:\Users\Silence\Desktop\ALD\Basile\Nouveau dossier'
 
 
 image_paths=glob.glob(p+'/*.tiff')
